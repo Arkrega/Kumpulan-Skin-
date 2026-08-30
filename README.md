@@ -1,147 +1,223 @@
-🎨 Minecraft Skins & Image Assets
+<div align="center">🎨 Minecraft Skins & Assets
 
-«A simple repository for storing, organizing, and accessing Minecraft skins, images, and other visual assets.»
+A simple place to store, organize, and access Minecraft skins & visual assets.
 
----
+<p>
+  <img src="https://img.shields.io/badge/Minecraft-Skins-62B47A?style=for-the-badge&logo=minecraft&logoColor=white" alt="Minecraft">
+  <img src="https://img.shields.io/github/repo-size/YOUR_USERNAME/YOUR_REPOSITORY?style=for-the-badge&label=REPO%20SIZE" alt="Repository Size">
+  <img src="https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPOSITORY?style=for-the-badge&label=LAST%20UPDATE" alt="Last Update">
+</p><p>
+  <a href="#-minecraft-skins">Skins</a>
+  &nbsp;•&nbsp;
+  <a href="#-image-assets">Images</a>
+  &nbsp;•&nbsp;
+  <a href="#-direct-access">Direct Access</a>
+  &nbsp;•&nbsp;
+  <a href="#-structure">Structure</a>
+</p></div>---
 
-📦 About
+📖 About
 
-This repository is used as a personal image and asset storage for Minecraft skins and other visual files.
+This repository is a collection of Minecraft skins, images, references, and other visual assets.
 
-Files are stored directly on GitHub so they can be easily accessed, shared, referenced, or used in other projects.
+The main goal is simple:
 
-What's inside?
+«Store it once. Access it anywhere.»
 
-- 🧑‍🎤 Minecraft Skins
-- 🖼️ Images & Artwork
-- 🎭 Character Assets
-- 📸 References
-- 🧩 Other Visual Assets
-
----
-
-🗂️ Repository Structure
-
-📦 repository
-├── 📁 skins
-│   ├── skin-01.png
-│   ├── skin-02.png
-│   └── ...
-│
-├── 📁 images
-│   ├── image-01.png
-│   ├── image-02.jpg
-│   └── ...
-│
-└── 📄 README.md
-
-The folder structure may change as the collection grows.
+Files are hosted on GitHub so they can be easily referenced from websites, applications, projects, or anywhere else that supports direct image URLs.
 
 ---
 
 🧑‍🎤 Minecraft Skins
 
-Minecraft skins are stored in the "skins/" directory.
+Minecraft skins are stored inside the ""skins/"" (./skins) directory.
 
-Most Minecraft skin files use:
+Type| Format| Recommended Resolution
+🧑 Minecraft Skin| ".png"| "64×64"
+🖼️ Image| ".png" / ".jpg" / ".webp"| Any
+🎞️ Animated Image| ".gif"| Any
 
-.png
+✨ Skin Preview
 
-Recommended skin resolution:
-
-64 × 64 px
+<p align="center"><img src="./skins/example.png" width="180" alt="Example Minecraft Skin"></p>«Replace "./skins/example.png" with any skin you want to showcase.»
 
 ---
 
 🖼️ Image Assets
 
-Other images can be stored inside the "images/" directory.
+Other visual assets are stored inside ""images/"" (./images).
 
-Supported formats may include:
+Examples:
 
-- ".png"
-- ".jpg"
-- ".jpeg"
-- ".webp"
-- ".gif"
-- ".svg"
+images/
+├── wallpapers/
+├── characters/
+├── references/
+├── icons/
+└── miscellaneous/
 
----
+Supported formats include:
 
-🔗 Direct File Access
-
-One of the main purposes of this repository is to make files easy to access through direct GitHub links.
-
-For example:
-
-https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/skins/example.png
-
-This allows assets to be referenced directly from other websites, projects, applications, or services.
-
-«Replace "USERNAME" and "REPOSITORY" with the actual GitHub username and repository name.»
+"PNG" · "JPG" · "JPEG" · "WEBP" · "GIF" · "SVG"
 
 ---
 
-📌 Naming Convention
+🔗 Direct Access
 
-To keep the repository organized, files should use simple and readable names.
+Files in this repository can be accessed directly through GitHub's Raw endpoint.
 
-✅ Recommended
+Example
+
+https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/skins/example.png
+
+You can use the URL as an image source:
+
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/skins/example.png">
+
+Or in Markdown:
+
+![Minecraft Skin](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/skins/example.png)
+
+This makes the repository useful as a lightweight static asset host for personal projects.
+
+---
+
+📂 Structure
+
+.
+├── 📁 skins/
+│   ├── skin-01.png
+│   ├── skin-02.png
+│   └── ...
+│
+├── 📁 images/
+│   ├── wallpapers/
+│   ├── characters/
+│   ├── references/
+│   └── ...
+│
+└── 📄 README.md
+
+The structure can evolve as the collection grows.
+
+---
+
+🏷️ Naming Convention
+
+Keep filenames short, readable, and predictable.
+
+✅ Good
 
 steve.png
 alex.png
-cyberpunk-skin.png
-minecraft-logo.png
-character-reference.jpg
+cyberpunk.png
+red-hoodie.png
+character-reference.webp
 
 ❌ Avoid
 
 IMG_938472.png
-finalfinal2_REAL.png
-asdfgh.png
+final_final_REAL_v2.png
 Screenshot_2026-08-31.png
+asdfgh.png
 
-Yeah, don't turn the repo into the Windows Downloads folder. 🗿
-
----
-
-⚡ Usage
-
-You are free to access the files for your own projects and personal use, subject to the rights and licenses of the individual assets.
-
-Some assets may belong to their respective creators. Do not assume that every file in this repository is free to redistribute or commercially use.
+Please don't turn this repository into your Downloads folder. 💀
 
 ---
 
-🛠️ Maintained With
+<details>
+<summary><strong>📋 How to Add a New Asset</strong></summary><br>1. Choose the correct folder
 
-- "GitHub" (https://github.com/)
-- Minecraft
-- Git
+skins/    → Minecraft skins
+images/   → Other visual assets
+
+2. Use a descriptive filename
+
+cool-skin.png
+minecraft-wallpaper.webp
+character-reference.jpg
+
+3. Upload the file
+
+You can upload directly through GitHub or push it using Git:
+
+git add .
+git commit -m "Add new asset"
+git push
+
+4. Get the direct URL
+
+Open the file on GitHub → click Raw → copy the URL.
+
+Done. 🚀
+
+</details>---
+
+🧩 Example Usage
+
+HTML
+
+<img
+  src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/skins/example.png"
+  alt="Minecraft Skin"
+  width="256"
+>
+
+Markdown
+
+![Minecraft Skin](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/skins/example.png)
+
+CSS
+
+background-image: url(
+  "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPOSITORY/main/images/example.png"
+);
 
 ---
 
-📊 Repository Purpose
+⚠️ Disclaimer
 
-Purpose| Status
-Minecraft Skins| ✅
-Image Storage| ✅
-Asset References| ✅
-Direct File Access| ✅
-Personal Projects| ✅
+This repository may contain assets created by different people.
 
----
+Ownership and usage rights belong to their respective creators unless otherwise stated.
 
-⭐ Notes
+Do not assume that an asset is free for:
 
-This repository is primarily intended for asset storage and easy access, rather than being a traditional software project.
+- ❌ Commercial redistribution
+- ❌ Re-uploading as your own
+- ❌ Selling
+- ❌ Removing creator attribution
 
-If you're looking for a specific file, browse the appropriate directory above.
+When in doubt, check the original source and its license.
 
 ---
 
-<div align="center">🎮 Minecraft • 🎨 Assets • 🖼️ Images
+📌 Repository Status
 
-Simple storage. Easy access. No bullshit.
+<div align="center">Feature| Status
+Minecraft Skins| 🟢 Active
+Image Assets| 🟢 Active
+Direct File Access| 🟢 Available
+Organization| 🟡 Growing
+More Assets| 🔜 Soon™
 
-</div>
+</div>---
+
+<details>
+<summary><strong>📜 Repository Philosophy</strong></summary><br>This repository isn't trying to be complicated.
+
+It's simply a place where visual assets can be:
+
+Stored → Organized → Accessed → Reused
+
+No unnecessary framework.
+No complicated setup.
+Just files.
+
+</details>---
+
+<div align="center">🎮 Minecraft · 🎨 Skins · 🖼️ Assets
+
+Made for easy access.
+
+<br><img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"></div>
